@@ -34,9 +34,6 @@ opencv-edge-detection/
 | Laplacian  | Nhạy cạnh mạnh         | Rất nhạy với nhiễu        | Khi cần phát hiện cạnh rõ|
 | Canny      | Hiệu quả, ít nhiễu     | Tham số cần tinh chỉnh    | Ứng dụng thực tế, robust|
 
-## Ảnh demo
-> Thêm ảnh demo vào thư mục `images/` và cập nhật vào đây.
-
 ## Kết luận
 - Nên dùng **Canny** cho ứng dụng thực tế.
 - **Sobel/Laplacian** phù hợp minh họa lý thuyết, tiền xử lý.
@@ -45,12 +42,4 @@ opencv-edge-detection/
 - Chỉ cần CPU, không cần GPU.
 - Không train model, không tốn ổ cứng.
 
-## Nâng cấp (Bonus)
-- Contour detection
-- Shape detection
-- Lane detection
-- Image sharpening
-- Morphological operations
 
----
-**Tác giả:** [Tên của bạn]
