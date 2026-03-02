@@ -23,7 +23,7 @@ def compare_kernels(img, kernels=[3, 5, 7]):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "images/sample.jpg"
+    path = sys.argv[1] if len(sys.argv) > 1 else "images/street.jpg"
     img = cv2.imread(path)
     sobelx, sobely, combined = sobel_edges(img)
     kernels = compare_kernels(img)
