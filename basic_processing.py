@@ -35,7 +35,7 @@ def show_images(images, titles=None):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "images/sample.jpg"
+    path = sys.argv[1] if len(sys.argv) > 1 else "images/street.jpg"
     img = load_image(path)
     img_resized = resize_image(img, width=400)
     img_gray = to_grayscale(img_resized)
