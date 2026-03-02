@@ -31,7 +31,7 @@ def compare_noise(img):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "images/sample.jpg"
+    path = sys.argv[1] if len(sys.argv) > 1 else "images/street.jpg"
     img = cv2.imread(path)
     results, times = compare_algorithms(img)
     print("Processing times (seconds):", times)
