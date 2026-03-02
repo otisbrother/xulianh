@@ -24,7 +24,7 @@ def hist_equalization(img):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "images/sample.jpg"
+    path = sys.argv[1] if len(sys.argv) > 1 else "images/street.jpg"
     img = cv2.imread(path)
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     blur = gaussian_blur(img_gray)
