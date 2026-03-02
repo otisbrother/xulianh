@@ -36,7 +36,7 @@ def compare_blur(img):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else "images/sample.jpg"
+    path = sys.argv[1] if len(sys.argv) > 1 else "images/street.jpg"
     img = cv2.imread(path)
     edges = canny_edge(img)
     edges_no_blur, edges_blur = compare_blur(img)
